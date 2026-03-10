@@ -1,0 +1,32 @@
+{
+  "dataset": "Magpie-Align/Magpie-Pro-300K-Filtered",
+  "total_samples": 300000,
+  "instruction_word_count": {
+    "mean": 14.20461,
+    "median": 12.0,
+    "std": 7.304998613819171,
+    "min": 1,
+    "max": 125,
+    "percentiles": {
+      "25": 10.0,
+      "50": 12.0,
+      "75": 17.0,
+      "90": 23.0,
+      "95": 28.0
+    }
+  },
+  "response_word_count": {
+    "mean": 494.47618666666665,
+    "median": 478.0,
+    "std": 84.16708053781174,
+    "min": 1,
+    "max": 2044,
+    "percentiles": {
+      "25": 438.0,
+      "50": 478.0,
+      "75": 531.0,
+      "90": 598.0,
+      "95": 648.0
+    }
+  }
+}

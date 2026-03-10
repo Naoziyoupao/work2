@@ -1,0 +1,40 @@
+{
+  "character_length": {
+    "type": "character",
+    "count": 4603,
+    "min": 1,
+    "max": 9886,
+    "mean": 1185.6510971105802,
+    "median": 1058.0,
+    "std": 895.0967971499381,
+    "percentile_25": 487.0,
+    "percentile_75": 1659.0,
+    "percentile_95": 2807.499999999998
+  },
+  "token_length": {
+    "type": "token",
+    "tokenizer_model": "Qwen/Qwen2.5-7B-Instruct",
+    "response": {
+      "count": 4603,
+      "min": 1,
+      "max": 2307,
+      "mean": 252.07321312187705,
+      "median": 226.0,
+      "std": 189.7741802252359,
+      "percentile_25": 106.0,
+      "percentile_75": 346.5,
+      "percentile_95": 587.0
+    },
+    "instruction": {
+      "count": 4603,
+      "min": 1,
+      "max": 2426,
+      "mean": 33.59157071475125,
+      "median": 18.0,
+      "std": 77.16722357232594,
+      "percentile_25": 11.0,
+      "percentile_75": 35.0,
+      "percentile_95": 88.0
+    }
+  }
+}

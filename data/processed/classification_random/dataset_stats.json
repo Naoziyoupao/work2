@@ -1,0 +1,19 @@
+{
+  "method": "random_sampling_with_deduplication",
+  "random_seed": 42,
+  "train_set": {
+    "total": 9206,
+    "real_count": 4603,
+    "synthetic_count": 4603
+  },
+  "test_set": {
+    "total": 1024,
+    "real_count": 512,
+    "synthetic_count": 512
+  },
+  "magpie_deduplication_stats": {
+    "original_count": 300000,
+    "deduped_count": 300000,
+    "duplicates_removed": 0
+  }
+}

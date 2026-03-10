@@ -1,0 +1,35 @@
+{
+  "format": "response_only",
+  "train": {
+    "total": 8284,
+    "real_count": 4142,
+    "synthetic_count": 4142,
+    "balance_ratio": 0.9999999999999758,
+    "real_length_stats": {
+      "mean": 253.0975374215355,
+      "median": 227.0,
+      "std": 190.10064718100978
+    },
+    "synthetic_length_stats": {
+      "mean": 239.86093674553356,
+      "median": 220.0,
+      "std": 186.26094859213168
+    }
+  },
+  "val": {
+    "total": 922,
+    "real_count": 461,
+    "synthetic_count": 461,
+    "balance_ratio": 0.9999999999997831,
+    "real_length_stats": {
+      "mean": 242.8698481561822,
+      "median": 214.0,
+      "std": 186.5632445897748
+    },
+    "synthetic_length_stats": {
+      "mean": 231.6008676789588,
+      "median": 205.0,
+      "std": 189.78122213987453
+    }
+  }
+}

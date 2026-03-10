@@ -1,0 +1,50 @@
+{
+  "total_pairs": 5115,
+  "first_turn_pairs": 5115,
+  "non_first_turn_pairs": 0,
+  "conversations_processed": 5115,
+  "instruction_word_count": {
+    "mean": 25.700879765395893,
+    "median": 15.0,
+    "std": 46.48838521744252,
+    "min": 1,
+    "max": 1640,
+    "percentiles": {
+      "25": 9.0,
+      "50": 15.0,
+      "75": 29.0,
+      "90": 50.0,
+      "95": 68.0
+    }
+  },
+  "response_word_count": {
+    "mean": 187.8930596285435,
+    "median": 170.0,
+    "std": 137.25786002105488,
+    "min": 1,
+    "max": 1556,
+    "percentiles": {
+      "25": 78.5,
+      "50": 170.0,
+      "75": 266.0,
+      "90": 363.0,
+      "95": 429.0
+    }
+  },
+  "train": {
+    "count": 4603,
+    "response_word_count": {
+      "mean": 189.6202476645666,
+      "median": 172.0,
+      "std": 137.43118293925795
+    }
+  },
+  "test": {
+    "count": 512,
+    "response_word_count": {
+      "mean": 172.365234375,
+      "median": 149.0,
+      "std": 134.69878651356262
+    }
+  }
+}

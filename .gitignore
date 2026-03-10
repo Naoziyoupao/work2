@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model outputs / cache / logs
+outputs/
+cache/
+logs/
+wandb/
+tensorboard/
+
+# Checkpoints and weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Data artifacts (keep folder structure, ignore heavy files)
+*.arrow
+*.parquet
+data/raw/**/*.jsonl
+data/raw/**/*.json
+!data/raw/**/dataset_dict.json
+data/processed/**/*.jsonl
+
+# Temp
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db

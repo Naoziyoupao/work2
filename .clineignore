@@ -1,0 +1,24 @@
+# Cline Data Isolation Configuration
+# This file prevents the AI assistant from reading sensitive data files
+
+# Block access to all raw data
+data/raw/**
+
+# Block access to processed data files (but allow stats)
+data/processed/**/*.jsonl
+data/processed/**/*.json
+data/processed/**/*.parquet
+data/processed/**/*.arrow
+
+# Allow reading statistics files for verification
+!data/processed/**/classification_data_stats.json
+!data/processed/**/*_stats.json
+!data/processed/**/dataset_dict.json
+
+# Block model outputs and checkpoints
+outputs/**
+cache/**
+*.pt
+*.pth
+*.bin
+*.safetensors

@@ -1,0 +1,45 @@
+{
+  "total_samples": 4603,
+  "selection_method": "random",
+  "response_tokens": {
+    "mean": 239.03367369107104,
+    "median": 219.0,
+    "std": 186.63297752289392,
+    "min": 0,
+    "max": 2229,
+    "percentile_25": 89.5,
+    "percentile_75": 335.0,
+    "percentile_95": 561.0
+  },
+  "target_tokens": {
+    "mean": 252.07321312187705,
+    "median": 226.0
+  },
+  "length_difference": {
+    "mean": 28.904410167282208,
+    "median": 19.0,
+    "std": 36.012242168811355,
+    "within_10_percent": 41.16880295459483,
+    "within_20_percent": 87.42124701281773
+  },
+  "temperatures": {
+    "mean": 0.8306408863784488,
+    "median": 0.82,
+    "std": 0.0934788914509614,
+    "distribution": {
+      "0.7-0.8": 47.51249185313925,
+      "0.8-0.9": 22.659135346513143,
+      "0.9-1.0": 29.828372800347598
+    }
+  },
+  "best_candidate_indices": {
+    "mean": 6.532044318922442,
+    "median": 6.0,
+    "std": 4.67394457254807,
+    "distribution": {
+      "0-21": 100.0,
+      "22-42": 0.0,
+      "43-63": 0.0
+    }
+  }
+}
